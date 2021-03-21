@@ -17,9 +17,9 @@ REFERENCES: A Fast 3-D finite element modeling algorithm for land transient elec
 1.0     2021/03/21
         initial release
 
-## 1 Environment
-# 1.1 Windows operating system, with MatLab installed.
-# 1.2 Linux operating system
+# 1 Environment
+## 1.1 Windows operating system, with MatLab installed.
+## 1.2 Linux operating system
 Install Intel OneAPI basekit and hpckit packages, refer to following website:
 https://software.intel.com/content/www/us/en/develop/articles/installing-intel-oneapi-toolkits-via-apt.html
 Set environmental variables BEFORE running example codes as:
@@ -27,7 +27,7 @@ source /opt/intel/oneapi/setvars.sh --force
 Set stacksize as:
 ulimit -s unlimited
 
-## 2 Run example models
+# 2 Run example models
 ## 2.1 large-loop 1-D model
 On Windows: ./mpiexec -n 1 -genv OMP_NUM_THREADS=8 -genv I_MPI_PIN_DOMAIN=omp ./FETD -f mod_big_sig_0.001
 On Linux: mpirun -n 1 -genv OMP_NUM_THREADS=8 -genv I_MPI_PIN_DOMAIN=omp ./FETD -f mod_big_sig_0.001
@@ -43,7 +43,7 @@ On Linux: mpirun -n 1 -genv OMP_NUM_THREADS=8 -genv I_MPI_PIN_DOMAIN=omp ./FETD 
 ## 2.4 small-loop 3-D model
 Run the mod3_small.m MatLab script
 
-## 3 Build your own model
+# 3 Build your own model
 
 ## 3.1 Gmsh script
 Refer to https://gmsh.info/ for Gmsh scripting info.
