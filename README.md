@@ -200,7 +200,7 @@ sp_dblesize: 2
 
 vtkout: 0
 
-## 3.4 run the plot
+## 3.4 Run and plot
 
 On Windows: ./mpiexec -n 1 -genv OMP_NUM_THREADS=8 -genv I_MPI_PIN_DOMAIN=omp ./FETD -f prefix
 
