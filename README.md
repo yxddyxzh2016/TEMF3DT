@@ -12,7 +12,7 @@ EMAIL: yxddyxzh@mail.ustc.edu.cn
 
 ADDRESS: School of Earth and Space Sciences, University of Science and Technology of China, Hefei 230026, China
 
-AIM: 3D land loop source time domain finite element modeling
+AIM: An algorithm that carries out both large-loop and small-loop TEM modeling. The algorithm is based on the 3-D time-domain finite element method with unstructured edge-based meshes, and an unconditional stable time-stepping method is applied to acquire stable solutions. Several models are provided along with the program. The program is compatible with PC, workstation, and cluster usage with OpenMP and MPI parallelization.
 
 # Version history
 
