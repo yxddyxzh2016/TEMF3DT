@@ -15,8 +15,8 @@ ADDRESS: School of Earth and Space Sciences, University of Science and Technolog
 AIM: 3D land loop source time domain finite element modeling
 
 ## Version history
-1.0     2021/03/21
-        initial release
+
+1.0     2021/03/21      initial release
 
 # 1 Environment
 
