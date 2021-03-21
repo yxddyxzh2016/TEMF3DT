@@ -1,0 +1,29 @@
+receivers: 1
+0.0  0.0  1.0
+
+isotropic: 2
+11 1.d-8 1.0 1.0
+12 0.001 1.0 1.0
+
+boundary condition: 0
+
+! TYPE 1 - STEPON / TYPE 2 - IMPULSE / TYPE 3 - STEPOFF
+source: 1
+1    1   1.0e-7    1.0
+
+! 1-unif newmark step 2-adap euler step
+sp_mthd: 2
+
+! number to divide t0
+sp_division: 30
+time_maximum: 0.1
+
+! number of step to double % not used for unif step
+sp_double: 32
+sp_dblesize: 2
+
+! ex ey ez dx dy dz bx by bz
+output:
+0 0 0 0 0 1 0 0 0
+
+vtkout: 0
