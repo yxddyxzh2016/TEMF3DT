@@ -6,7 +6,7 @@ A Fast 3-D finite element modeling algorithm for land transient electromagnetic 
 
 README FOR TEMF3DT SOFTWARE
 
-AUTHOR: XIAODONG YANG
+AUTHOR: Xiaodong Yang
 
 EMAIL: yxddyxzh@mail.ustc.edu.cn
 
