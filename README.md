@@ -52,25 +52,25 @@ ulimit -s unlimited
 
 # 2 Run example models
 
-## 2.1 large-loop 1-D model
+## 2.1 Large-loop 1-D model
 
 On Windows: ./mpiexec -n 1 -genv OMP_NUM_THREADS=8 -genv I_MPI_PIN_DOMAIN=omp ./FETD -f mod_big_sig_0.001
 
 On Linux: mpirun -n 1 -genv OMP_NUM_THREADS=8 -genv I_MPI_PIN_DOMAIN=omp ./FETD -f mod_big_sig_0.001
 
-## 2.2 samll-loop 1-D model
+## 2.2 Small-loop 1-D model
 
 On Windows: ./mpiexec -n 1 -genv OMP_NUM_THREADS=8 -genv I_MPI_PIN_DOMAIN=omp ./FETD -f mod_small_sig_0.001
 
 On Linux: mpirun -n 1 -genv OMP_NUM_THREADS=8 -genv I_MPI_PIN_DOMAIN=omp ./FETD -f mod_small_sig_0.001
 
-## 2.3 large-loop 3-D model
+## 2.3 Large-loop 3-D model
 
 On Windows: ./mpiexec -n 1 -genv OMP_NUM_THREADS=8 -genv I_MPI_PIN_DOMAIN=omp ./FETD -f mod3_big
 
 On Linux: mpirun -n 1 -genv OMP_NUM_THREADS=8 -genv I_MPI_PIN_DOMAIN=omp ./FETD -f mod3_big
 
-## 2.4 small-loop 3-D model
+## 2.4 Small-loop 3-D model
 
 Run the mod3_small.m MatLab script
 
