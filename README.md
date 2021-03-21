@@ -80,7 +80,7 @@ Run the mod3_small.m MatLab script
 
 Refer to https://gmsh.info/ for Gmsh scripting info.
 
-Here is a sample Gmsh file mod3_big.geo that could be used by FETD program, you can find it within the package:
+Here is a sample Gmsh file mod_big_sig_0.001.geo that could be used by FETD program, you can find it within the package:
 
 // set the min and max mesh size
 
