@@ -1,6 +1,10 @@
 # TEMF3DT
 3D land loop source time domain finite element modeling
 
+Please reference the following paper if the software is used in your research:
+
+A Fast 3-D finite element modeling algorithm for land transient electromagnetic method with OneAPI acceleration
+
 README FOR TEMF3DT SOFTWARE
 
 AUTHOR: XIAODONG YANG
@@ -10,8 +14,6 @@ EMAIL: yxddyxzh@mail.ustc.edu.cn
 ADDRESS: School of Earth and Space Sciences, University of Science and Technology of China, Hefei 230026, China
 
 AIM: 3D land loop source time domain finite element modeling
-
-REFERENCES: A Fast 3-D finite element modeling algorithm for land transient electromagnetic method with OneAPI acceleration
 
 ## Version history
 1.0     2021/03/21
