@@ -22,6 +22,16 @@ AIM: 3D land loop source time domain finite element modeling
 
 ## 1.1 Windows operating system, with MatLab installed.
 
+Runtime libraries are prepacked in libs.zip, to use, unzip libs.zip to WINDOWS folder.
+
+You can also install your own Intel OneAPI basekit and hpckit libraries, refer to following website:
+
+https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html?operatingsystem=window&distributions=webdownload
+
+and
+
+https://software.intel.com/content/www/us/en/develop/tools/oneapi/hpc-toolkit/download.html?operatingsystem=window&distributions=webdownload
+
 ## 1.2 Linux operating system
 
 Install Intel OneAPI basekit and hpckit packages, refer to following website:
