@@ -1,5 +1,4 @@
 # TEMF3DT
-3D land loop source time domain finite element modeling
 
 Please reference the following paper if the software is used in your research:
 
