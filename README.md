@@ -1,6 +1,6 @@
 # TEMF3DT
 
-Please reference the following paper if the software is used in your research:
+Please cite the following paper if the software is used in your research:
 
 A Fast 3-D finite element modeling algorithm for land transient electromagnetic method with OneAPI acceleration
 
