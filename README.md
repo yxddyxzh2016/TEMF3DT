@@ -26,7 +26,11 @@ AIM: 3D land loop source time domain finite element modeling
 
 Install Intel OneAPI basekit and hpckit packages, refer to following website:
 
-https://software.intel.com/content/www/us/en/develop/articles/installing-intel-oneapi-toolkits-via-apt.html
+https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html?operatingsystem=linux
+
+and
+
+https://software.intel.com/content/www/us/en/develop/tools/oneapi/hpc-toolkit/download.html?operatingsystem=linux
 
 Set environmental variables BEFORE running example codes as:
 
