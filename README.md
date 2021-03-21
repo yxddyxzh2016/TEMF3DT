@@ -4,8 +4,6 @@ Please reference the following paper if the software is used in your research:
 
 A Fast 3-D finite element modeling algorithm for land transient electromagnetic method with OneAPI acceleration
 
-README FOR TEMF3DT SOFTWARE
-
 AUTHOR: Xiaodong Yang
 
 EMAIL: yxddyxzh@mail.ustc.edu.cn
