@@ -131,9 +131,16 @@ for i=1:16
     end
 end
 
+coor(121,3)=coor(121,3)-2;
+coor(161,3)=coor(161,3)-2;
+coor(229,3)=coor(229,3)-6;
+coor(232,3)=coor(232,3)-2;
+coor(251,3)=coor(251,3)-4;
+coor(255,3)=coor(255,3)-2;
+
 % loop
 field = zeros(6,16*16);
-for i=252:16*16
+for i=255:255
     tic
     disp('----------------------------------');
     disp(string(i)+' of '+string(16*16));
@@ -833,16 +840,15 @@ field5 = reshape(field(5,:),16,16);
 field6 = reshape(field(6,:),16,16);
 
 f1=subplot(2,3,1);
-contourf(X,Y,field1);
+contourf(X,Y,field1,50,'LineColor','none');
 set(f1,'ColorScale','log');
 title('t=5×10^{-6}s');
 axis equal;
 set(gca,'XTick',(-750:500:750));
 set(gca,'YTick',(-750:500:750));
-% ylabel('y(m)','position',[-1000,-1000]);
 h1=colorbar('southoutside');
 f2=subplot(2,3,2);
-contourf(X,Y,field2);
+contourf(X,Y,field2,50,'LineColor','none');
 set(f2,'ColorScale','log');
 title('t=10^{-5}s');
 axis equal;
@@ -850,7 +856,7 @@ set(gca,'XTick',(-750:500:750));
 set(gca,'YTick',(-750:500:750));
 h2=colorbar('southoutside');
 f3=subplot(2,3,3);
-contourf(X,Y,field3);
+contourf(X,Y,field3,50,'LineColor','none');
 set(f3,'ColorScale','log');
 title('t=5×10^{-5}s');
 axis equal;
@@ -858,7 +864,7 @@ set(gca,'XTick',(-750:500:750));
 set(gca,'YTick',(-750:500:750));
 h3=colorbar('southoutside');
 f4=subplot(2,3,4);
-contourf(X,Y,field4);
+contourf(X,Y,field4,50,'LineColor','none');
 set(f4,'ColorScale','log');
 title('t=10^{-4}s');
 axis equal;
@@ -866,47 +872,56 @@ set(gca,'XTick',(-750:500:750));
 set(gca,'YTick',(-750:500:750));
 h4=colorbar('southoutside');
 f5=subplot(2,3,5);
-contourf(X,Y,field5);
+contourf(X,Y,field5,50,'LineColor','none');
 set(f5,'ColorScale','log');
 title('t=5×10^{-4}s');
 axis equal;
 set(gca,'XTick',(-750:500:750));
 set(gca,'YTick',(-750:500:750));
-% xlabel('x(m)');
 h5=colorbar('southoutside');
 f6=subplot(2,3,6);
-contourf(X,Y,field6);
+contourf(X,Y,field6,50,'LineColor','none');
 set(f6,'ColorScale','log');
 title('t=10^{-3}s');
 axis equal;
 set(gca,'XTick',(-750:500:750));
 set(gca,'YTick',(-750:500:750));
 h6=colorbar('southoutside');
-
 set(f1,'position',[.05 .62 .32 .32]);
 set(f2,'position',[.35 .62 .32 .32]);
 set(f3,'position',[.65 .62 .32 .32]);
 set(f4,'position',[.05 .13 .32 .32]);
 set(f5,'position',[.35 .13 .32 .32]);
 set(f6,'position',[.65 .13 .32 .32]);
-
 set(h1,'Position',[.1 .56 .22 .012]);
 h1.FontAngle = 'italic';
 h1.FontWeight = 'bold';
+h1.TickLength = 0.03;
+h1.Ticks = [1e-13,1e-12,1e-11,1e-10,1e-9,1e-8,1e-7,1e-6,1e-5,1e-4];
 set(h2,'Position',[.4 .56 .22 .012]);
 h2.FontAngle = 'italic';
 h2.FontWeight = 'bold';
+h2.TickLength = 0.03;
+h2.Ticks = [1e-13,1e-12,1e-11,1e-10,1e-9,1e-8,1e-7,1e-6,1e-5,1e-4];
 set(h3,'Position',[.7 .56 .22 .012]);
 h3.FontAngle = 'italic';
 h3.FontWeight = 'bold';
+h3.TickLength = 0.03;
+h3.Ticks = [1e-13,1e-12,1e-11,1e-10,1e-9,1e-8,1e-7,1e-6,1e-5,1e-4];
 set(h4,'Position',[.1 .07 .22 .012]);
 h4.FontAngle = 'italic';
 h4.FontWeight = 'bold';
+h4.TickLength = 0.03;
+h4.Ticks = [1e-13,1e-12,1e-11,1e-10,1e-9,1e-8,1e-7,1e-6,1e-5,1e-4];
 set(h5,'Position',[.4 .07 .22 .012]);
 h5.FontAngle = 'italic';
 h5.FontWeight = 'bold';
+h5.TickLength = 0.03;
+h5.Ticks = [1e-13,1e-12,1e-11,1e-10,1e-9,1e-8,1e-7,1e-6,1e-5,1e-4];
 set(h6,'Position',[.7 .07 .22 .012]);
 h6.FontAngle = 'italic';
 h6.FontWeight = 'bold';
+h6.TickLength = 0.03;
+h6.Ticks = [1e-13,1e-12,1e-11,1e-10,1e-9,1e-8,1e-7,1e-6,1e-5,1e-4];
 
 exportgraphics(gcf,'figure23.png','Resolution',300);
