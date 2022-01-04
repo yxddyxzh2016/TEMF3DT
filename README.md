@@ -1,8 +1,20 @@
 # TEMF3DT
 
+This is TEMF3DT, an algorithm that carries out both large-loop and small-loop TEM modeling.
+
 Please cite the following paper if the software is used in your research:
 
 A Fast 3-D finite element modeling algorithm for land transient electromagnetic method with OneAPI acceleration
+
+TEMF3DT is copyright (C) 2021-2022 Xiaodong Yang.
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 AUTHOR: Xiaodong Yang
 
@@ -16,13 +28,13 @@ AIM: An algorithm that carries out both large-loop and small-loop TEM modeling. 
 
 1.0     2021/03/21      initial release
 
+2.0     2022/01/02      bug fix, open source
+
 # 1 Environment
 
-## 1.1 Windows operating system, with MatLab installed.
+## 1.1 Windows operating system
 
-Runtime libraries are prepacked in libs.zip, to use, unzip libs.zip to WINDOWS folder.
-
-You can also install your own Intel OneAPI basekit and hpckit libraries, refer to following website:
+Install Visual Studio 2022 with C++ development tool selected, together with Intel OneAPI basekit and hpckit libraries, refer to following website:
 
 https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html?operatingsystem=window&distributions=webdownload
 
